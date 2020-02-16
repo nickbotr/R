@@ -34,4 +34,4 @@ Data2_na <- na.omit(Data)
 
 write.csv(Data2_na,paste0(path,"Modified_Data.csv"), row.names = FALSE)
 
-plot(Data2$"Birth year",Data2$"% of your life the US has been at war",xlab="Year",ylab="% of your life the US has been at war")
+# plot(Data2$"Birth year",Data2$"% of your life the US has been at war",xlab="Year",ylab="% of your life the US has been at war")
